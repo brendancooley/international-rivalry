@@ -1,0 +1,580 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Endogenous Protection and International Rivalry</title>
+  <meta charset="utf-8">
+  <meta name="description" content="Endogenous Protection and International Rivalry">
+  <meta name="author" content="Brendan Cooley">
+  <meta name="generator" content="slidify" />
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta http-equiv="X-UA-Compatible" content="chrome=1">
+  <link rel="stylesheet" href="libraries/frameworks/io2012/css/default.css" media="all" >
+  <link rel="stylesheet" href="libraries/frameworks/io2012/css/phone.css" 
+    media="only screen and (max-device-width: 480px)" >
+  <link rel="stylesheet" href="libraries/frameworks/io2012/css/slidify.css" >
+  <link rel="stylesheet" href="libraries/highlighters/highlight.js/css/tomorrow.css" />
+  <base target="_blank"> <!-- This amazingness opens all links in a new tab. -->  <link rel=stylesheet href="./assets/css/custom.css"></link>
+<link rel=stylesheet href="./assets/css/ribbons.css"></link>
+
+  
+  <!-- Grab CDN jQuery, fall back to local if offline -->
+  <script src="http://ajax.aspnetcdn.com/ajax/jQuery/jquery-1.7.min.js"></script>
+  <script>window.jQuery || document.write('<script src="libraries/widgets/quiz/js/jquery.js"><\/script>')</script> 
+  <script data-main="libraries/frameworks/io2012/js/slides" 
+    src="libraries/frameworks/io2012/js/require-1.0.8.min.js">
+  </script>
+  
+  
+
+</head>
+<body style="opacity: 0">
+  <slides class="layout-widescreen">
+    
+    <!-- LOGO SLIDE -->
+        <slide class="title-slide segue nobackground">
+  <hgroup class="auto-fadein">
+    <h1>Endogenous Protection and International Rivalry</h1>
+    <h2>Linking the Domestic Politics of Trade and Interstate Conflict</h2>
+    <p>Brendan Cooley<br/>March 2, 2017</p>
+  </hgroup>
+  <article></article>  
+</slide>
+    
+
+    <!-- SLIDES -->
+    <slide class="class" id="id" style="background:;">
+  <article data-timings="">
+    <div style="display:none">
+  $
+    \newcommand{\argmin}{\text{arg}\,\text{min}  }
+    \newcommand{\argmax}{\text{arg}\,\text{max}  }
+  $
+</div>
+
+<h2>Theorizing International Rivalry</h2>
+
+<ul>
+<li><strong>Big Picture Question</strong>: Where do international rivalries come from?
+
+<ul>
+<li>Motivating historical example: <em>The Rise of the Anglo-German Antagonism</em> (Kennedy 1987)</li>
+<li>Contemporary example: Sino-U.S. relations</li>
+</ul></li>
+<li><strong>The Lake (2014) hypothesis</strong>: evolution of U.S.-China relations in 21st century will be determined by character of domestic political economies
+
+<ul>
+<li>&quot;If integration strengthens market forces within China, cooperation between the two superpowers will likely be expanded as common interests prevail. If political forces remain dominant in China, greater conflict may emerge.&quot;</li>
+</ul></li>
+<li>Broad definition of conflict: costly signals of various sorts (Fearon 1997)
+
+<ul>
+<li>Low end: denouncements/accusations/threats</li>
+<li>High end: military mobilization/skirmishes/war</li>
+</ul></li>
+<li>To evaluate the Lake hypothesis, need a coherent theoretical framework linking domestic political regimes and policies, cross-border economic flows, and international bargaining</li>
+</ul>
+
+  </article>
+  <!-- Presenter Notes -->
+</slide>
+
+<slide class="class" id="id" style="background:;">
+  <hgroup>
+    <h2>Trade Policy Preferences and Externalities</h2>
+  </hgroup>
+  <article data-timings="">
+    <ul>
+<li><strong>Rationales for protectionism</strong>:
+
+<ul>
+<li><strong>Classical economic explanation</strong>: Large economies and terms of trade effects</li>
+<li><strong>Political economic explanation</strong>: Goverments disproportionately weigh politically-organized producer interests relative to social welfare (Grossman and Helpman 1994, 1995)</li>
+</ul></li>
+<li><strong>Externalities of Protection</strong>: imposes costs on both domestic consumers <em>and foreign exporters in the protected sector</em>
+
+<ul>
+<li>Domestic demand for protection generates conflicts of interest between imperfectly-represtentative governments</li>
+<li>Grossman and Helpman 1995: &quot;Increased government sensitivity to the concerns of special interests in one country raises the profits of the organized factor owners in that country at the expense of their counterparts abroad&quot;</li>
+</ul></li>
+</ul>
+
+  </article>
+  <!-- Presenter Notes -->
+</slide>
+
+<slide class="" id="slide-3" style="background:;">
+  <hgroup>
+    <h2>Externalities of Trade Policy</h2>
+  </hgroup>
+  <article data-timings="">
+    
+<div style='float:left;width:48%;' class='centered'>
+  <p><img width=500px height=550px src="externalities.png"></img></p>
+
+</div>
+<div style='float:right;width:48%;'>
+  <ul>
+<li>When foreign country has pricing power, increase in tariff pushes international price down</li>
+<li>This causes shift in income in the home country, favoring consumers at the expense of producers</li>
+<li>\(\Delta\) PS \(=\) loss suffered by producers in the home country as a result of the imposition of the foreign tariff</li>
+<li>How is the government&#39;s utility affected by these shifts? Depends on whose interests it represents...</li>
+</ul>
+
+</div>
+  </article>
+  <!-- Presenter Notes -->
+</slide>
+
+<slide class="class" id="id" style="background:;">
+  <hgroup>
+    <h2>Roadmap</h2>
+  </hgroup>
+  <article data-timings="">
+    <ol>
+<li>Develop \(N\)-country, \(K\)-sector model of the international economy with domestic lobbying, based on Grossman and Helpman (1995)</li>
+<li>Estimate model&#39;s structural parameters - \(a_i\), weight government places on social welfare relative to political contributions
+
+<ul>
+<li>Goldberg and Maggi (1999), Mitra, Thomakos and Ulubasoglu (2006), Gawande, Krishna and Olarreaga (2009, 2015), Ossa (2014)</li>
+</ul></li>
+<li>Measure implied dyadic conflicts of interest
+
+<ul>
+<li>What bilateral trade policy would country \(i\) set if it controlled instruments in countries \(i\) and \(j\)?</li>
+<li>How much does \(i\)&#39;s utility change from the scenario in which it controls bilateral trade policy to the scenario in which \(j\) controls bilateral trade policy?</li>
+</ul></li>
+<li>Connect implied conflict of interest to patterns of dyadic conflict, measured with ICEWS event dataset</li>
+</ol>
+
+  </article>
+  <!-- Presenter Notes -->
+</slide>
+
+<slide class="class" id="id" style="background:;">
+  <hgroup>
+    <h2>Model Primatives</h2>
+  </hgroup>
+  <article data-timings="">
+    <ul>
+<li>Countries \(i \in \left\{1,...,N \right\}\), sectors \(k \in \left\{1,...,K \right\}\)</li>
+<li>Trade policy instrument \(\tau_{ik}\) (uniform tariff applying to all goods in sector \(k\))
+
+<ul>
+<li>\(\tau_{ik} = 1\) no barriers to trade</li>
+<li>\(\tau_{ik} > 1\) import tariff</li>
+<li>\(\tau_{ik} < 1\) export subsidy</li>
+</ul></li>
+<li>International price \(\pi_k(\tau_{1k},...,\tau_{Nk})\)</li>
+<li>Domestic price \(\tau_{ik} \pi_k(\tau_{1k},...,\tau_{Nk})\)</li>
+<li>\(W_{i}(\vec{\tau_i}, \vec{\pi})\) social welfare derived from producer profits, consumer surplus, and tariff revenue in economy:
+\[W_{i}(\vec{\tau_i}, \vec{\pi}) = \sum_k \underbrace{\Pi_{ik}(\tau_{ik}, \pi_k)}_{\text{producer profits}} + \underbrace{r_{i}(\vec{\tau_i}, \vec{\pi})}_{\text{tariff revenue}} + \underbrace{S_{i}(\vec{\tau_i}, \vec{\pi})}_{\text{consumer surplus}}\]</li>
+</ul>
+
+  </article>
+  <!-- Presenter Notes -->
+</slide>
+
+<slide class="class" id="id" style="background:;">
+  <hgroup>
+    <h2>Agents&#39; Objectives</h2>
+  </hgroup>
+  <article data-timings="">
+    <ul>
+<li>Governments optimize
+\[G_i(\vec{\tau_i}, \vec{\pi}) = \sum_{k=1}^K C_{ik}(\vec{\tau_i}, \vec{\pi}) + a_i W_{i}(\vec{\tau_i}, \vec{\pi})\]</li>
+<li>\(C_{ik}(\vec{\tau_i}, \vec{\pi})\) political contributions to government \(i\) from sector \(k\)</li>
+<li>Menu auction (Bernheim and Whinston 1986), sectors of relative population size \(\alpha_k\) set contribution schedules to maximize \(W_{ik}(\vec{\tau_i}, \vec{\pi}) - C_{ik}(\vec{\tau_i}, \vec{\pi})\) where
+\[W_{ik}(\vec{\tau_i}, \vec{\pi}) = l_i + \Pi_{ik}(\tau_{ik}, \pi_{ik}) + \alpha_k \left[r_{i}(\vec{\tau_i}, \vec{\pi}) + S_{i}(\vec{\tau_i}, \vec{\pi}) \right]\]</li>
+<li>Domestic game induces governments to maximize weighted sum of producer welfare and social welfare
+\[G_i(\vec{\tau_i}, \vec{\pi}) = \sum_{k=1}^K W_{ik}(\vec{\tau_i}, \vec{\pi}) + a_i W_{i}(\vec{\tau_i}, \vec{\pi})\]</li>
+</ul>
+
+  </article>
+  <!-- Presenter Notes -->
+</slide>
+
+<slide class="class" id="id" style="background:;">
+  <hgroup>
+    <h2>&#39;Trade Talks&#39; (Cooperative) Equilibrium</h2>
+  </hgroup>
+  <article data-timings="">
+    <ul>
+<li>Nash (&#39;optimal tariffs&#39;) are inefficient from the perspective of \(N\) governments with objective functions as specified above
+
+<ul>
+<li>Principals of reciprocity and nondiscrimination embedded in multilateral trading system allow politically-motivated governments to realize joint gains (Bagwell and Staiger 2001)</li>
+</ul></li>
+<li>Equilibrium conditions:
+
+<ul>
+<li>Joint maximization:
+\[\nabla_{\tau_k} G_i(\vec{\tau_i}, \vec{\pi}) = 0 \quad \forall \text{ } i, k\]</li>
+<li>Market clearing, net imports = demand - production: 
+\[M_{ik}(\tau_{ik}, \pi_k) = d_{ik}(\tau_{ik}, \pi_k) - X_{ik}(\tau_{ik}, \pi_k)\]
+\[ \sum_i M_{ik}(\tau_{ik}, \pi_k) = 0 \quad \forall \text{ } k\]</li>
+</ul></li>
+</ul>
+
+  </article>
+  <!-- Presenter Notes -->
+</slide>
+
+<slide class="class" id="id" style="background:;">
+  <hgroup>
+    <h2>&#39;Trade Talks&#39; (Cooperative) Equilibrium</h2>
+  </hgroup>
+  <article data-timings="">
+    <ul>
+<li>Equilibrium protection (ruling out export subsidies (\(\tau_{ik} < 1\)) and normalizing most &#39;open&#39; country-sector to \(\tau_{ik} = 1\)):
+\[\tau_{ik}^\star - 1 = - \frac{1 - \alpha_{iL}}{a + \alpha_{iL}} \frac{X_{ik}}{\pi_k M_{ik}^\prime}\]</li>
+<li>Population size of owners of specific factors:
+\[\alpha_{iL} = \sum_k \alpha_{ik}\]</li>
+<li>Characteristics:
+
+<ul>
+<li>Decreasing in weight government places on social welfare (\(a \rightarrow \infty\))</li>
+<li>Increasing in economic size of sector \(k\) (\(X_{ik}\))</li>
+<li>Decreasing in population size of owners of specific factors (\(\alpha_{L} \rightarrow 1\))</li>
+</ul></li>
+</ul>
+
+  </article>
+  <!-- Presenter Notes -->
+</slide>
+
+<slide class="class" id="id" style="background:;">
+  <hgroup>
+    <h2>Effect of Foreign Tariffs on Home Welfare</h2>
+  </hgroup>
+  <article data-timings="">
+    <ul>
+<li>Consider a change in foreign tariffs in sector \(k\):
+\[\frac{\partial G_i}{\partial \tau_{j \neq i}} = \underbrace{\frac{\partial \pi}{\partial \tau_{j \neq i}}}_{\text{effect of $\tau_{j \neq i}$ on $\pi$}} \left( \underbrace{\frac{\partial \Pi_{i}}{\partial \pi}  + 
+\alpha_k \left[\frac{\partial r_i}{\partial \pi} + \frac{ \partial S_{i}}{\partial \pi} \right]}_{\text{effect on producer interests}} + 
+a \underbrace{\left[ \frac{\partial \Pi_{i}}{\partial \pi} + \frac{\partial r_i}{\partial \pi} + \frac{ \partial S_{i}}{\partial \pi} \right]}_{\text{effect on consumer interests}} \right)\]</li>
+<li>Limiting Cases
+
+<ul>
+<li>\(a \rightarrow 0\) (contribution maximizing govt):
+\[\frac{\partial G_i}{\partial \tau_{j \neq i}} = \frac{\partial \pi}{\partial \tau_{j \neq i}} \left( \frac{\partial \Pi_{i}}{\partial \pi} + \alpha_k \left[ \frac{\partial r_i}{\partial \pi} + \frac{ \partial S_{i}}{\partial \pi} \right] \right)\]</li>
+<li>\(a \rightarrow \infty\) (social welfare maximizing govt):
+\[\frac{\partial G_i}{\partial \tau_{j \neq i}} = \frac{\partial \pi}{\partial \tau_{j \neq i}} \left( \frac{\partial \Pi_{i}}{\partial \pi} + \frac{\partial r_i}{\partial \pi} + \frac{ \partial S_{i}}{\partial \pi} \right)\]</li>
+</ul></li>
+</ul>
+
+  </article>
+  <!-- Presenter Notes -->
+</slide>
+
+<slide class="class" id="id" style="background:;">
+  <hgroup>
+    <h2>Bilateral Ideal Points and Conflicts of Interest</h2>
+  </hgroup>
+  <article data-timings="">
+    <ul>
+<li>Assumption: governments always adversely effected by increases in foreign tariffs
+\[\frac{\partial G_i}{\partial \tau_{j \neq i}}  < 0 \quad \forall \text{ } i,k\]
+
+<ul>
+<li>Might be violated for highly representative governments (\(a \rightarrow \infty\)), which weigh increase in consumer surplus induced by decrease in international price equivalently to loss in producer surplus</li>
+<li>When assumption is met, all governments prefer zero tariffs (\(\tau = 1\)) in all foreign countries (ruling out possibility of export subsidies)</li>
+</ul></li>
+<li><strong>Dyadic Ideal Point</strong>: <em>bilateral</em> trade policy country \(i\) would set if it controlled trade policy instrument in countries \(i\) and \(j\)</li>
+<li><strong>Conflict of Interest</strong>: difference in \(i\)&#39;s welfare evaluated at it&#39;s own ideal point versus \(j\)&#39;s ideal point
+
+<ul>
+<li>Will follow Eaton, Dekle and Kortum (2007) and Ossa (2014) in calculating welfare changes induced by counterfactual tariff changes</li>
+</ul></li>
+</ul>
+
+  </article>
+  <!-- Presenter Notes -->
+</slide>
+
+<slide class="class" id="id" style="background:;">
+  <hgroup>
+    <h2>Bilateral Ideal Points and Conflicts of Interest</h2>
+  </hgroup>
+  <article data-timings="">
+    <ul>
+<li>Optima tariffs for country \(i\), constraining country \(j\)&#39;s tariffs to zero solve:
+\[ \vec{\tau_{i}^c} = \argmax_{\vec{\tau_{i}}} \sum_{k=1}^K \Pi_{ik} \left( \tau_{ik}, \pi_k(\tau_{ik},...,1_{jk},..., \tau_{nk}) \right) + a \sum_{k=1}^K W_{ik} \left( \tau_{ik}, \pi_k(\tau_{ik},...,1_{jk},..., \tau_{nk}) \right) \]</li>
+<li>Government \(i\)&#39;s utility evaluated at its ideal point:
+\[\overline{G}_{ij}(\tau_i^c) = \sum_{k=1}^K G_{ik}(\tau_{ik}^c, \pi_k(\tau_{ik}^c,...,1_{jk},..., \tau_{nk}))\]</li>
+<li>Goverment \(i\)&#39;s utility evaluated at \(j\)&#39;s ideal point:
+\[\underline{G}_{ij}(1_i) = \sum_{k=1}^K G_{ik}(1_{ik}^c, \pi_k(1_{ik}^c,...,\tau_{jk}^c,..., \tau_{nk}))\]</li>
+<li>Magnitude of conflict of interest: \(\overline{G}_{ij}(\tau_i^c) - \underline{G}_{ij}(1_i)\)</li>
+</ul>
+
+  </article>
+  <!-- Presenter Notes -->
+</slide>
+
+<slide class="class" id="id" style="background:;">
+  <hgroup>
+    <h2>Estimation Procedure</h2>
+  </hgroup>
+  <article data-timings="">
+    <ul>
+<li>Goal: recover \(N\) estimates of \(a_i\) from \(N \times K\) country-sector level data</li>
+<li>Recall equilibrium protection:
+\[\tau_{ik}^\star - 1  = \max \left\{ 1, -\frac{1 - \alpha_{iL}}{a + \alpha_{iL}} \frac{X_{ik}}{\pi_k M_{ik}^\prime} \right\}\]</li>
+<li>Multiplying rhs by total imports \(M_{ik} / M_{ik}\) and everything by \(1 / \tau_{ik}^\star\) gives relationship in terms of observables and \(a_i\):
+\[\frac{\tau_{ik}^\star - 1}{\tau_{ik}^\star}  = - \frac{1 - \alpha_{iL}}{a + \alpha_{iL}} \frac{X_{ik}}{M_{ik}} \frac{1}{e_{ik}}\]</li>
+<li>\(\tau_{ik}^\star\) - magnitude of protection, \(M_{ik}\) - imports, \(X_{ik}\) - production, \(e_{ik}\) - elasticity of import demand, \(\alpha_{iL}\) - number of employees in organized sectors divided by total population</li>
+</ul>
+
+  </article>
+  <!-- Presenter Notes -->
+</slide>
+
+<slide class="class" id="id" style="background:;">
+  <hgroup>
+    <h2>Estimation Procedure</h2>
+  </hgroup>
+  <article data-timings="">
+    <ul>
+<li>Assume inverse import penetration ratio \(X_{ik} / M_{ik}\) measured with error \(\eta_{ik} \sim \mathcal{N}(0, \sigma^2)\), giving
+\[\frac{\tau_{ik}^\star - 1}{\tau_{ik}^\star}  = - \frac{1 - \alpha_{iL}}{a + \alpha_{iL}} \left( \frac{X_{ik}}{M_{ik}} + \eta_{ik} \right) \frac{1}{e_{ik}}\]
+\[ \eta_{ik} = \frac{\tau_{ik}^\star - 1}{\tau_{ik}^\star} \frac{1 - \alpha_{iL}}{a + \alpha_{iL}} e_{ik} + \frac{X_{ik}}{M_{ik}} \]</li>
+<li>Since \(\mathbb{E}(\eta_{ik}) = 0\), estimate of \(a_i\) solves
+\[ \min_{a_i} \sum_k \left( \frac{\tau_{ik}^\star - 1}{\tau_{ik}^\star} \frac{1 - \alpha_{iL}}{a + \alpha_{iL}} e_{ik} + \frac{X_{ik}}{M_{ik}} \right)^2\]</li>
+</ul>
+
+  </article>
+  <!-- Presenter Notes -->
+</slide>
+
+<slide class="class" id="id" style="background:;">
+  <hgroup>
+    <h2>Data</h2>
+  </hgroup>
+  <article data-timings="">
+    <ul>
+<li>World Bank&#39;s Trade, Production, and Protection dataset (Nicita and Olarreaga 2006)
+
+<ul>
+<li>Observations at country-sector-year level (28 ISIC 3-digit sectors)</li>
+</ul></li>
+<li>Estimate model on combined tariff and non-tariff barriers to trade
+\[\tau_{ik} = \tau_{ik}^{tar} + \tau_{ik}^{ntb}\]</li>
+<li>Focus on cross sectional variation, availability of NTB data leaves ~60 countries with sufficient data, spanning 1995-2001
+
+<ul>
+<li>All credibly &#39;large&#39; countries with pricing power included (i.e. U.S., Japan, China, EU, Russia, South Korea, etc)</li>
+</ul></li>
+<li>Country-sector import demand elasticity estimates and ad-valorem equivalents of NTBs from Kee et al (2008)</li>
+</ul>
+
+  </article>
+  <!-- Presenter Notes -->
+</slide>
+
+<slide class="" id="slide-15">
+<hgroup>
+  <h2>Cross-National Patterns of Protection</h2>
+</hgroup>
+<article class = 'flexbox vcenter'>
+<p>Click to go to the <a href="https://brendancooley.shinyapps.io/tpp-explorer/">Explorer</a></p>
+
+<p>To open on your computer, open an R console and execute:</p>
+
+<pre><code class="r">require(shiny)
+runGitHub(&#39;tpp-explorer&#39;, user=&#39;brendancooley&#39;)
+</code></pre>
+
+<p>Or go to: <a href="https://brendancooley.shinyapps.io/tpp-explorer/">https://brendancooley.shinyapps.io/tpp-explorer/</a></p>
+
+</article>
+<!-- Presenter Notes -->
+</slide>
+<slide class="" id="slide-16">
+<hgroup>
+  <h2>Estimates Highly Sensitive to Outliers</h2>
+</hgroup>
+<article class = 'flexbox vcenter'>
+<p><img width=800px height=475px src="gawande.png"></img></p>
+
+<p><em>from Gawande et al 2015, similar results obtained using estimator derived above</em></p>
+
+</article>
+<!-- Presenter Notes -->
+</slide>
+<slide class="class" id="id" style="background:;">
+  <hgroup>
+    <h2>Alternatives to Baseline Model</h2>
+  </hgroup>
+  <article data-timings="">
+    <ul>
+<li><strong>Counterlobbying</strong>: Model interdependencies across sectors and allow industries to condition contributions on effects of tariff increases on prices of intermediate goods</li>
+<li><strong>Flexible Weights</strong>: More complexity in government&#39;s objective function, allow for differential weights on producer surplus, tariff revenue, and consumer surplus
+
+<ul>
+<li>Drawback - takes us further away from lobbying microfoundations of model</li>
+</ul></li>
+<li><strong>Influence of Labor Orgs</strong>: jointly estimate \(a\) and \(\alpha_L\) (Mitra, Thomakos and Ulubasoglu (2006)), government&#39;s objective depends on social welfare consciousness and percentage of population that is politically organized</li>
+<li><strong>Others?</strong></li>
+</ul>
+
+  </article>
+  <!-- Presenter Notes -->
+</slide>
+
+<slide class="class" id="id" style="background:;">
+  <hgroup>
+    <h2>Next Steps</h2>
+  </hgroup>
+  <article data-timings="">
+    <ol>
+<li>Modify baseline model to achieve realistic parameter estimates, balancing parsimony against face validity</li>
+<li>Derive estimator for welfare changes of counterfactual tariff changes</li>
+<li>Estimate implied dyadic conflicts of interest</li>
+<li>Separate project: build state space model to estimate latent conflict-propensity from ICEWS inernational dyadic event data</li>
+</ol>
+
+  </article>
+  <!-- Presenter Notes -->
+</slide>
+
+    <slide class="backdrop"></slide>
+  </slides>
+  <div class="pagination pagination-small" id='io2012-ptoc' style="display:none;">
+    <ul>
+      <li>
+      <a href="#" target="_self" rel='tooltip' 
+        data-slide=1 title='NA'>
+         1
+      </a>
+    </li>
+    <li>
+      <a href="#" target="_self" rel='tooltip' 
+        data-slide=2 title='Trade Policy Preferences and Externalities'>
+         2
+      </a>
+    </li>
+    <li>
+      <a href="#" target="_self" rel='tooltip' 
+        data-slide=3 title='Externalities of Trade Policy'>
+         3
+      </a>
+    </li>
+    <li>
+      <a href="#" target="_self" rel='tooltip' 
+        data-slide=4 title='Roadmap'>
+         4
+      </a>
+    </li>
+    <li>
+      <a href="#" target="_self" rel='tooltip' 
+        data-slide=5 title='Model Primatives'>
+         5
+      </a>
+    </li>
+    <li>
+      <a href="#" target="_self" rel='tooltip' 
+        data-slide=6 title='Agents&#39; Objectives'>
+         6
+      </a>
+    </li>
+    <li>
+      <a href="#" target="_self" rel='tooltip' 
+        data-slide=7 title='&#39;Trade Talks&#39; (Cooperative) Equilibrium'>
+         7
+      </a>
+    </li>
+    <li>
+      <a href="#" target="_self" rel='tooltip' 
+        data-slide=8 title='&#39;Trade Talks&#39; (Cooperative) Equilibrium'>
+         8
+      </a>
+    </li>
+    <li>
+      <a href="#" target="_self" rel='tooltip' 
+        data-slide=9 title='Effect of Foreign Tariffs on Home Welfare'>
+         9
+      </a>
+    </li>
+    <li>
+      <a href="#" target="_self" rel='tooltip' 
+        data-slide=10 title='Bilateral Ideal Points and Conflicts of Interest'>
+         10
+      </a>
+    </li>
+    <li>
+      <a href="#" target="_self" rel='tooltip' 
+        data-slide=11 title='Bilateral Ideal Points and Conflicts of Interest'>
+         11
+      </a>
+    </li>
+    <li>
+      <a href="#" target="_self" rel='tooltip' 
+        data-slide=12 title='Estimation Procedure'>
+         12
+      </a>
+    </li>
+    <li>
+      <a href="#" target="_self" rel='tooltip' 
+        data-slide=13 title='Estimation Procedure'>
+         13
+      </a>
+    </li>
+    <li>
+      <a href="#" target="_self" rel='tooltip' 
+        data-slide=14 title='Data'>
+         14
+      </a>
+    </li>
+    <li>
+      <a href="#" target="_self" rel='tooltip' 
+        data-slide=15 title='Cross-National Patterns of Protection'>
+         15
+      </a>
+    </li>
+    <li>
+      <a href="#" target="_self" rel='tooltip' 
+        data-slide=16 title='Estimates Highly Sensitive to Outliers'>
+         16
+      </a>
+    </li>
+    <li>
+      <a href="#" target="_self" rel='tooltip' 
+        data-slide=17 title='Alternatives to Baseline Model'>
+         17
+      </a>
+    </li>
+    <li>
+      <a href="#" target="_self" rel='tooltip' 
+        data-slide=18 title='Next Steps'>
+         18
+      </a>
+    </li>
+  </ul>
+  </div>  <!--[if IE]>
+    <script 
+      src="http://ajax.googleapis.com/ajax/libs/chrome-frame/1/CFInstall.min.js">  
+    </script>
+    <script>CFInstall.check({mode: 'overlay'});</script>
+  <![endif]-->
+</body>
+  <!-- Load Javascripts for Widgets -->
+  
+  <!-- MathJax: Fall back to local if CDN offline but local image fonts are not supported (saves >100MB) -->
+  <script type="text/x-mathjax-config">
+    MathJax.Hub.Config({
+      tex2jax: {
+        inlineMath: [['$','$'], ['\\(','\\)']],
+        processEscapes: true
+      }
+    });
+  </script>
+  <script type="text/javascript" src="http://cdn.mathjax.org/mathjax/2.0-latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
+  <!-- <script src="https://c328740.ssl.cf1.rackcdn.com/mathjax/2.0-latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML">
+  </script> -->
+  <script>window.MathJax || document.write('<script type="text/x-mathjax-config">MathJax.Hub.Config({"HTML-CSS":{imageFont:null}});<\/script><script src="libraries/widgets/mathjax/MathJax.js?config=TeX-AMS-MML_HTMLorMML"><\/script>')
+</script>
+<!-- LOAD HIGHLIGHTER JS FILES -->
+  <script src="libraries/highlighters/highlight.js/highlight.pack.js"></script>
+  <script>hljs.initHighlightingOnLoad();</script>
+  <!-- DONE LOADING HIGHLIGHTER JS FILES -->
+   
+  </html>
