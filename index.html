@@ -297,12 +297,10 @@ a \underbrace{\left[ \frac{\partial \Pi_{i}}{\partial \pi} + \frac{\partial r_i}
   </hgroup>
   <article data-timings="">
     <ul>
-<li>Optima tariffs for country \(i\), constraining country \(j\)&#39;s tariffs to zero solve:
-\[ \vec{\tau_{i}^c} = \argmax_{\vec{\tau_{i}}} \sum_{k=1}^K \Pi_{ik} \left( \tau_{ik}, \pi_k(\tau_{ik},...,1_{jk},..., \tau_{nk}) \right) + a \sum_{k=1}^K W_{ik} \left( \tau_{ik}, \pi_k(\tau_{ik},...,1_{jk},..., \tau_{nk}) \right) \]</li>
-<li>Government \(i\)&#39;s utility evaluated at its ideal point:
-\[\overline{G}_{ij}(\tau_i^c) = \sum_{k=1}^K G_{ik}(\tau_{ik}^c, \pi_k(\tau_{ik}^c,...,1_{jk},..., \tau_{nk}))\]</li>
-<li>Goverment \(i\)&#39;s utility evaluated at \(j\)&#39;s ideal point:
-\[\underline{G}_{ij}(1_i) = \sum_{k=1}^K G_{ik}(1_{ik}^c, \pi_k(1_{ik}^c,...,\tau_{jk}^c,..., \tau_{nk}))\]</li>
+<li>Optimal tariffs for \(i\), constraining \(j\)&#39;s tariffs to zero solve (subject to \(G_{-i,j} \geq G^\star\)):
+\[ \vec{\tau_{i}^c} = \argmax_{\vec{\tau_{i}}} \sum_{k=1}^K W_{ik} \left( \tau_{ik}, \pi_k(\tau_{ik},...,1_{jk},..., \tau_{nk}) \right) + a W_{i} \left( \tau_{ik}, \pi_k(\tau_{ik},...,1_{jk},..., \tau_{nk}) \right) \]</li>
+<li>Government \(i\)&#39;s utility evaluated at its ideal point: \[\overline{G}_{ij}(\tau_i^c) = \sum_{k=1}^K G_{ik}(\tau_{ik}^c, \pi_k(\tau_{ik}^c,...,1_{jk},..., \tau_{nk}))\]</li>
+<li>Goverment \(i\)&#39;s utility evaluated at \(j\)&#39;s ideal point:\[\underline{G}_{ij}(1_i) = \sum_{k=1}^K G_{ik}(1_{ik}^c, \pi_k(1_{ik}^c,...,\tau_{jk}^c,..., \tau_{nk}))\]</li>
 <li>Magnitude of conflict of interest: \(\overline{G}_{ij}(\tau_i^c) - \underline{G}_{ij}(1_i)\)</li>
 </ul>
 
